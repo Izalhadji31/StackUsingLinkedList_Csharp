@@ -23,6 +23,11 @@ namespace StackUsingLinkedList_Csharp
 
         public Stacks()
         {
+            top = null;
+        }
+
+        bool empty()
+        {
 
         }
     }
