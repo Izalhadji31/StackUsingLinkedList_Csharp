@@ -19,5 +19,11 @@ namespace StackUsingLinkedList_Csharp
     class Stacks
     {
 
+        Node top;
+
+        public Stacks()
+        {
+
+        }
     }
 }
