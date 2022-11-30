@@ -52,6 +52,21 @@ namespace StackUsingLinkedList_Csharp
 
         public void display()
         {
+            Node tmp;
+            if (empty())  //If stack is empty
+                Console.WriteLine("\nStack Empty");
+            else
+            {
+                //Travarse the list from beggining till end
+                for (tmp = top; tmp != null; tmp = tmp.next)
+                {
+                    Console.WriteLine(tmp.info);
+                }
+                Console.WriteLine();
+            }
+        }
+        static void Main(string[] args)
+        {
 
         }
     }
