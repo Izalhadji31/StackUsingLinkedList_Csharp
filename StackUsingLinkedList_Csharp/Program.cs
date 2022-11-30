@@ -36,6 +36,16 @@ namespace StackUsingLinkedList_Csharp
 
         public void push(int element)
         {
+            Node fresh;
+            fresh = new Node(element,null);
+
+            fresh.next = top;
+            top = fresh;
+            Console.WriteLine("\n" + element + "pushed.");
+        }
+
+        public void pop()
+        {
 
         }
     }
